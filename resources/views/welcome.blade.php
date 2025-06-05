@@ -21,8 +21,6 @@
   </script>
 </head>
 <body class="bg-white dark:bg-gray-900 bg-cover bg-center" 
-      style="background-image: url('https://scontent.fceb2-1.fna.fbcdn.net/v/t1.15752-9/494817179_1744456026493518_780908941467251957_n.png?stp=dst-png_s2048x2048&_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEJhQGmoRbC5sN5hOHSla5Jnm8y9uaBvuOebzL25oG-41PeHikgAhHyryWczzvqllrr7Kg0cDMGX18M1FfEtwb-&_nc_ohc=GfUDZzr41T0Q7kNvwHVADt6&_nc_oc=AdkKK5k347KdLLD9YTW8RjmGxFc0nZ4P2BgQsGa1mSKqSxeXJ04oG1suzpG-jSRbNA0&_nc_zt=23&_nc_ht=scontent.fceb2-1.fna&oh=03_Q7cD2gGaIAVYW_d2xJoQVaVO5qJq0Lfnre_NwINQMKYVLc5FBw&oe=686917CB');">
-
 <header class="absolute inset-x-0 top-0 z-50 bg-white dark:bg-gray-900 bg-opacity-90 dark:bg-opacity-90 backdrop-blur-sm">
   <nav class="flex items-center justify-between px-6 py-4 lg:px-8">
     <!-- Left: Logo -->
@@ -97,22 +95,47 @@
   </div>
 </header>
 
-<main>
-  <div class="relative isolate px-6 pt-40 lg:px-8">
-    <div class="text-center max-w-2xl mx-auto py-16">
-      <h1 class="text-5xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-7xl">
-        Wear More, Waste Less.
-      </h1>
-      <p class="mt-6 text-lg text-gray-600 dark:text-gray-300">
-        Anim aute id magna aliqua ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
-      </p>
-      <div class="mt-10 flex justify-center gap-4">
-        <a href="#" class="bg-indigo-600 text-white px-4 py-2.5 rounded-md font-semibold hover:bg-indigo-500">Get started</a>
-        <a href="#" class="text-sm font-semibold text-gray-900 dark:text-gray-300">Learn more →</a>
+<section 
+  class="bg-cover bg-center"
+  style="background-image: url('https://scontent.fceb2-1.fna.fbcdn.net/v/t1.15752-9/494817179_1744456026493518_780908941467251957_n.png?stp=dst-png_s2048x2048&_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEJhQGmoRbC5sN5hOHSla5Jnm8y9uaBvuOebzL25oG-41PeHikgAhHyryWczzvqllrr7Kg0cDMGX18M1FfEtwb-&_nc_ohc=GfUDZzr41T0Q7kNvwHVADt6&_nc_oc=AdkKK5k347KdLLD9YTW8RjmGxFc0nZ4P2BgQsGa1mSKqSxeXJ04oG1suzpG-jSRbNA0&_nc_zt=23&_nc_ht=scontent.fceb2-1.fna&oh=03_Q7cD2gGaIAVYW_d2xJoQVaVO5qJq0Lfnre_NwINQMKYVLc5FBw&oe=686917CB');"
+>
+  <div class="max-w-2xl mx-auto py-40 px-6 lg:px-8 bg-white/80 dark:bg-gray-900/70 rounded-lg shadow-lg text-center">
+    <h1 class="text-5xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-7xl">
+      Wear More, Waste Less.
+    </h1>
+    <p class="mt-6 text-lg text-gray-600 dark:text-gray-300">
+      Anim aute id magna aliqua ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+    </p>
+    <div class="mt-10 flex justify-center gap-4">
+      <a href="#" class="bg-indigo-600 text-white px-4 py-2.5 rounded-md font-semibold hover:bg-indigo-500">Get started</a>
+      <a href="#" class="text-sm font-semibold text-gray-900 dark:text-gray-300">Learn more →</a>
+    </div>
+  </div>
+</section>
+<section class="py-16 bg-white dark:bg-gray-900">
+  <div class="max-w-4xl mx-auto px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-center text-gray-900 dark:text-white">Shop by Category</h2>
+    <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <!-- Men's Section -->
+      <div class="group relative overflow-hidden rounded-lg shadow-lg">
+        <img src="https://i.pinimg.com/736x/3e/79/5f/3e795fa7f3799bf924a2d703a0c31534.jpg" alt="Men's Fashion" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+        <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <span class="text-white text-lg font-semibold">Men's Fashion</span>
+        </div>
+      </div>
+      <!-- Women's Section -->
+      <div class="group relative overflow-hidden rounded-lg shadow-lg">
+        <img src="https://i.pinimg.com/736x/b8/bc/5d/b8bc5d4b261f6a0b268ea77ceaf6fd0c.jpg" alt="Women's Fashion" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+        <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <span class="text-white text-lg font-semibold">Women's Fashion</span>
+        </div>
       </div>
     </div>
   </div>
-</main>
+</section>
+
+
+
 
 <script>
   document.querySelector('.mobile-menu-open').addEventListener('click', () => {
